@@ -16,11 +16,6 @@ public class TimeUtils
 		return (endTime - startTime) / 1000L;
 	}
 
-	public static long getSystemTime()
-	{
-		return System.currentTimeMillis();
-	}
-
 	/**
 	 * 
 	 * @param time
